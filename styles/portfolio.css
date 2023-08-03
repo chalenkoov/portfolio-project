@@ -44,7 +44,21 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
-.hero .btn-branding {
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
+.btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
   color: white;
@@ -68,8 +82,12 @@ p {
 }
 @media (max-width: 900px) {
   .hero h1 {
-    font-size: 50px;
-    line-height: 2;
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .about-section h1 {
+    font-size: 44px;
+    line-height: 54px;
   }
   .pr-title {
     font-size: 44px;
@@ -80,5 +98,9 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
