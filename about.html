@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+        <meta
+      name="description"
+      content="This page is about Patricia Pereira - a front-end engineer based in Portugal"
+    />
+    <title>About Patricia Pereira</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -29,26 +33,26 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img src="/images/logo.png" class="logo d-none d-md-block" alt="Patricia Logo" />
           <img
             src="images/small-logo.jpg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Patricia Logo"
           />
         </a>
         <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/about.html" title="About Patricia"> About</a>
           </li>
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/work.html" title="Patricia's Work">Work</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Patricia"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -69,9 +73,65 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/patricia.png" alt="" class="img-fluid" />
+          <img src="images/patricia.png" alt="Patricia Pereira" class="img-fluid" />
         </div>
       </div>
+            <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Patricia"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Email Patricia"
+            >patricia@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+
+          <a href="https://github.com/" target="_blank" title="GitHub Profile">
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+        <div>
+          <p class="text-center mt-5">
+            ✌️This project was coded by SheCodes, and it is
+            <a
+              href="https://github.com/chalenkoov/portfolio-project"
+              target="_blank" class="text-decoration-none"
+              >open-sourced</a
+            >
+          </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
